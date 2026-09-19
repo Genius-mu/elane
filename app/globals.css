@@ -1,0 +1,138 @@
+@import "tailwindcss";
+
+:root {
+  --background: #17150F;
+  --foreground: #E9E5DD;
+  --surface: #1E1B15;
+  --surface-raised: #242019;
+  --dark-soft: #0D0C09;
+  --accent: #7C6A4E;
+  --accent-soft: #A89574;
+  --accent-glow: rgba(124, 106, 78, 0.25);
+  --line: rgba(233, 229, 221, 0.12);
+  --line-strong: rgba(233, 229, 221, 0.25);
+  --muted: rgba(233, 229, 221, 0.65);
+  --muted-faint: rgba(233, 229, 221, 0.38);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-surface: var(--surface);
+  --color-accent: var(--accent);
+  --color-muted: var(--muted);
+  --font-display: var(--font-fraunces);
+  --font-sans: var(--font-inter);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #17150F;
+  color: #E9E5DD;
+  font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-inter), system-ui, -apple-system, sans-serif;
+  overflow-x: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+/* Typography Helpers */
+.font-display {
+  font-family: var(--font-fraunces), serif;
+  letter-spacing: -0.015em;
+}
+
+.font-sans {
+  font-family: var(--font-inter), sans-serif;
+}
+
+.eyebrow {
+  font-size: 0.72rem;
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+  color: var(--accent-soft);
+  font-family: var(--font-inter), sans-serif;
+  font-weight: 500;
+}
+
+.shell {
+  width: 100%;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: clamp(1.25rem, 5vw, 4.5rem);
+  padding-right: clamp(1.25rem, 5vw, 4.5rem);
+}
+
+.hairline {
+  height: 1px;
+  width: 100%;
+  background-color: var(--line);
+}
+
+.hairline-accent {
+  height: 1px;
+  width: 100%;
+  background-color: var(--accent);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #17150F;
+}
+::-webkit-scrollbar-thumb {
+  background: #2E2A20;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #7C6A4E;
+}
+
+/* Selection */
+::selection {
+  background: #7C6A4E;
+  color: #FFFFFF;
+}
+
+/* Lenis smooth scroll */
+html.lenis, html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
+}
+
+/* Subtle Vignette & Ambient depth */
+.vignette-bottom {
+  background: linear-gradient(to top, #17150F 0%, rgba(23, 21, 15, 0.8) 40%, transparent 100%);
+}
+
+.vignette-top {
+  background: linear-gradient(to bottom, #17150F 0%, rgba(23, 21, 15, 0.7) 40%, transparent 100%);
+}
