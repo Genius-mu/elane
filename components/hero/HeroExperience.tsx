@@ -87,7 +87,6 @@ export default function HeroExperience() {
             className="flex items-center justify-between border-b border-[rgba(233,229,221,0.15)] pb-4"
           >
             <div className="flex items-center gap-4">
-              <span className="h-1.5 w-1.5 rounded-full bg-[#A89574]" />
               <p className="eyebrow text-[11px] tracking-[0.3em] text-[#E9E5DD]/90">
                 Five-Star International Sanctuary · Est. 1987
               </p>
