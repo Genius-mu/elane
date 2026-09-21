@@ -36,31 +36,31 @@ export default function Footer() {
               <p className="eyebrow text-[10px]">Accommodations</p>
               <ul className="space-y-2.5 text-xs text-[#E9E5DD]/70">
                 <li>
-                  <Link href="/rooms" className="transition-colors hover:text-[#A89574] flex items-center gap-4">
+                  <Link href="/rooms" className="transition-colors hover:text-[#A89574] flex items-center gap-2">
                     The Residence
                     <ArrowRight className="w-3 h-3" />
                   </Link>
                 </li>
                 <li>
-                  <Link href="/rooms" className="transition-colors hover:text-[#A89574] flex items-center gap-4">
+                  <Link href="/rooms" className="transition-colors hover:text-[#A89574] flex items-center gap-2">
                     The Signature Suite
                     <ArrowRight className="w-3 h-3" />
                   </Link>
                 </li>
                 <li>
-                  <Link href="/rooms" className="transition-colors hover:text-[#A89574] flex items-center gap-4">
+                  <Link href="/rooms" className="transition-colors hover:text-[#A89574] flex items-center gap-2">
                     The Skyline Suite
                     <ArrowRight className="w-3 h-3" />
                   </Link>
                 </li>
                 <li>
-                  <Link href="/rooms" className="transition-colors hover:text-[#A89574] flex items-center gap-4">
+                  <Link href="/rooms" className="transition-colors hover:text-[#A89574] flex items-center gap-2">
                     The Courtyard Suite
                     <ArrowRight className="w-3 h-3" />
                   </Link>
                 </li>
                 <li>
-                  <Link href="/rooms" className="transition-colors hover:text-[#A89574] flex items-center gap-4">
+                  <Link href="/rooms" className="transition-colors hover:text-[#A89574] flex items-center gap-2">
                     The Atelier Room
                     <ArrowRight className="w-3 h-3" />
                   </Link>
@@ -73,31 +73,31 @@ export default function Footer() {
               <p className="eyebrow text-[10px]">Experience</p>
               <ul className="space-y-2.5 text-xs text-[#E9E5DD]/70">
                 <li>
-                  <Link href="/dining" className="transition-colors hover:text-[#A89574] flex items-center gap-4">
+                  <Link href="/dining" className="transition-colors hover:text-[#A89574] flex items-center gap-2">
                     ORIGIN Tasting Salon
                     <ArrowRight className="w-3 h-3" />
                   </Link>
                 </li>
                 <li>
-                  <Link href="/dining" className="transition-colors hover:text-[#A89574] flex items-center gap-4">
+                  <Link href="/dining" className="transition-colors hover:text-[#A89574] flex items-center gap-2">
                     LUMEN Evening Bar
                     <ArrowRight className="w-3 h-3" />
                   </Link>
                 </li>
                 <li>
-                  <Link href="/dining" className="transition-colors hover:text-[#A89574] flex items-center gap-4">
+                  <Link href="/dining" className="transition-colors hover:text-[#A89574] flex items-center gap-2">
                     TERRACE Breakfast & Hearth
                     <ArrowRight className="w-3 h-3" />
                   </Link>
                 </li>
                 <li>
-                  <Link href="/services" className="transition-colors hover:text-[#A89574] flex items-center gap-4">
+                  <Link href="/services" className="transition-colors hover:text-[#A89574] flex items-center gap-2">
                     Thermal Spa & Hydrotherapy
                     <ArrowRight className="w-3 h-3" />
                   </Link>
                 </li>
                 <li>
-                  <Link href="/services" className="transition-colors hover:text-[#A89574] flex items-center gap-4">
+                  <Link href="/services" className="transition-colors hover:text-[#A89574] flex items-center gap-2">
                     Mineral Lap Pool
                     <ArrowRight className="w-3 h-3" />
                   </Link>
@@ -139,24 +139,24 @@ export default function Footer() {
           <p>© 2026 ÉLANE HOTELS & RESIDENCES. ALL RIGHTS RESERVED.</p>
 
           <div className="flex items-center gap-6">
-            <a href="https://instagram.com" target="_blank" rel="noreferrer" className="transition-colors hover:text-[#A89574] flex items-center gap-4">
+            <a href="https://instagram.com" target="_blank" rel="noreferrer" className="transition-colors hover:text-[#A89574] flex items-center gap-2">
               Instagram
               <ArrowRight className="w-3 h-3" />
             </a>
-            <a href="https://pinterest.com" target="_blank" rel="noreferrer" className="transition-colors hover:text-[#A89574] flex items-center gap-4">
+            <a href="https://pinterest.com" target="_blank" rel="noreferrer" className="transition-colors hover:text-[#A89574] flex items-center gap-2">
               Pinterest
               <ArrowRight className="w-3 h-3" />
             </a>
-            <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="transition-colors hover:text-[#A89574] flex items-center gap-4">
+            <a href="https://linkedin.com" target="_blank" rel="noreferrer" className="transition-colors hover:text-[#A89574] flex items-center gap-2">
               LinkedIn
               <ArrowRight className="w-3 h-3" />
             </a>
             <span className="text-[rgba(233,229,221,0.2)]">|</span>
-            <Link href="/about" className="transition-colors hover:text-[#A89574] flex items-center gap-4">
+            <Link href="/about" className="transition-colors hover:text-[#A89574] flex items-center gap-2">
               Privacy & Discretion
               <ArrowRight className="w-3 h-3" />
             </Link>
-            <Link href="/about" className="transition-colors hover:text-[#A89574] flex items-center gap-4">
+            <Link href="/about" className="transition-colors hover:text-[#A89574] flex items-center gap-2">
               Accessibility
               <ArrowRight className="w-3 h-3" />
             </Link>
